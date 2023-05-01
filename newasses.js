@@ -30,21 +30,28 @@ function getBooksByAuthor(books){
 //Create a function addNewBook that takes a book object as an argument and adds it
 //to the library, ensuring that the new book has all required properties (title, author,
  //   publicationYear, and isAvailable).
-function addNewBook()
+function addNewBook(){
+    if(newBook.includes (books.title),(books.author),(books.publicationYear),(books.isAvailable)){
+    return books.push(newbook)
+}
+}
 
 //  Create a function checkoutBook that takes a book title as an argument and changes
 //the book's isAvailable property to false. If the book is not found in the library, the
 //function should return a message indicating that the book is not available.
 function checkOutBook(title){
-if(books.map(title => books.title(!includes(title)))){
-console.log(`${title} is not availble`)
+if(books.filter(title => books.title(!includes(title)))){
+return books.isAvailable
 }
 }
+console.log(    `${title} is not available`)
+
 // 5. Create a function returnBook that takes a book title as an argument and changes the
 //book's isAvailable property to true. If the book is not found in the library, the function
 //should return a message indicating that the book does not belong to the library.
 function returnBook(title){
-    if(books.map(title =>books.title(includes(title)))){
-    console.log(    `${title} is available`)
+    if(books.filter(title =>books.title(includes(title)))){
+        return books.isAvailable
     }
 }
+console.log(    `${title} is available`)
