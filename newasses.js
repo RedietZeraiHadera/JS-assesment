@@ -21,8 +21,8 @@ return allBooks.push(books.title())
 //2. Create a function getBooksByAuthor that takes an author's name as an argument and
 //returns an array of all books by that author.
 function getBooksByAuthor(books){
-    author = [];
-    return author.push(books.author())
+    allAuthors = [];
+    return allAuthors.push(books.author())
 }
 
 
