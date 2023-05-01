@@ -30,7 +30,7 @@ function getBooksByAuthor(books){
 //Create a function addNewBook that takes a book object as an argument and adds it
 //to the library, ensuring that the new book has all required properties (title, author,
  //   publicationYear, and isAvailable).
-function addNewBook(){
+function addNewBook(books){
     if(newBook.includes (books.title),(books.author),(books.publicationYear),(books.isAvailable)){
     return books.push(newbook)
 }
